@@ -8,7 +8,7 @@
       <h1>Build Better Websites With Bikin</h1>
       <h2>We are team of talented designers making websites with Bootstrap</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      <img src="public/assets/img/Testbuddy (1).png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
+      <img src="public/assets/img/Testbuddy (1).png" class="img-fluid hero-img" alt="dfghjkl" data-aos="zoom-in" data-aos-delay="150">
     </div>
   </section>
 
@@ -30,7 +30,7 @@
 
         <div class="row content">
           <div class="col-md-5" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/features-1.png" class="img-fluid" alt="">
+            <img src="public/assets/img/cellphone.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -447,7 +447,7 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-  
+
 
 
 
