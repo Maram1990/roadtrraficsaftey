@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('signs');
 });
 
 Route::get('/maram', function () {
@@ -56,7 +56,7 @@ route::get('contact',function(){
     $name=request("name");
     return $name;
 });
- 
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
