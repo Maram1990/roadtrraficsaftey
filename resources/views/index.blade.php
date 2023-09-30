@@ -8,7 +8,7 @@
       <h1>Build Better Websites With Bikin</h1>
       <h2>We are team of talented designers making websites with Bootstrap</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      <img src="d:\مشروع\assets\img\Testbuddy (1).png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
+      <img src="public/assets/img/Testbuddy (1).png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
     </div>
   </section>
 
@@ -177,7 +177,7 @@
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="puplic/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -380,7 +380,7 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
+      <div  class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>اتصل بنا</h2>
@@ -447,6 +447,9 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
+  
+
+
 
   @endsection
 

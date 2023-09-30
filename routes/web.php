@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('signs');
+    return view('index');
 });
 
-Route::get('/maram', function () {
-    return "hello maram";
+Route::get('/signs', function () {
+    return view('signs');
 });
 Route::get('/ma', function () {
     return view('newfolder.ma');
