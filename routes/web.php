@@ -48,6 +48,10 @@ route::get('/category/{id}', function($id){
     ]);
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
 route::get('contact',function(){
     $name=request("name");
     return $name;
@@ -64,3 +68,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
