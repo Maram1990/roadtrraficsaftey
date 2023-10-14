@@ -52,18 +52,8 @@
           <li><a class="nav-link scrollto active" href="#hero">الرئيسية</a></li>
           <li><a class="nav-link scrollto" href="#services">مكتبة</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">موسوعة الإشارات</a></li>
-          <li class="dropdown"><a href="#"><span>دليل وارشادات</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-
-
-              </li>
-
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#pricing">اختبر نفسك</a></li>
+          <li><a class="nav-link scrollto " href="#pricing">تعليمات</a></li>
+          <li><a class="nav-link scrollto" href="#hero">اختبر نفسك</a></li>
           <li><a class="nav-link scrollto" href="#contact">اتصل بنا</a></li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
@@ -84,14 +74,14 @@
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>Bikin</span></strong>. All Rights Reserved
+          &copy; حقوق النشر محفوظة<strong><span>وزارة النقل</span></strong>.
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bikin-free-simple-landing-page-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+         <a href="https://mot.gov.sy/">مديرية المعلوماتية</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
