@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Question;
 use Illuminate\Http\Request;
-use App\Models\post;
 
-class PostController extends Controller
+class QuestionController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $posts = post::all();
-        return view('posts',compact('posts'));
+       $questions = question::all();
+       return view('questions',compact('questions'));
     }
 
     /**

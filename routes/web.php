@@ -22,6 +22,19 @@ Route::get('/', function () {
 Route::get('/answers',[AnswerController::class,'index']);
 
 
+Route::get('/questions',[QuestionController::class, 'index']);
+
+Route::get('/posts',[PostController::class,'index']);
+
+
+
+
+
+
+
+
+
+
 
 
 
