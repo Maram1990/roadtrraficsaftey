@@ -4,6 +4,10 @@
 
 <main id="main">
 
+    @foreach ($posts as $post)
+    {
+
+
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
@@ -65,8 +69,6 @@
 
       </div>
     </section><!-- End Portfolio Details Section -->
-
+    }
   </main><!-- End #main -->
-
-
 @endsection

@@ -10,9 +10,9 @@ class Question extends Model
 {
     use HasFactory;
 
-    public function answers(): HasMany
+    public function answer(): HasMany
     {
-        return $this->hasMany(Answer::class , 'answer_id','id');
+        return $this->hasMany(Answer::class );
 
     }
 }

@@ -12,7 +12,7 @@ class AnswerController extends Controller
      */
     public function index()
     {
-        $answers=answer::all();
+        $answers=answer::with('question')->inRandomOrder()->get();
         return view('answers',compact('answers'));
     }
 

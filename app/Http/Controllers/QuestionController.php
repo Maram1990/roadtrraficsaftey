@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+
+
+
 use App\Models\Question;
+
 use Illuminate\Http\Request;
 
 class QuestionController extends Controller
@@ -12,8 +16,13 @@ class QuestionController extends Controller
      */
     public function index()
     {
-       $questions = question::all();
+
+        $questions = question::with('answer')->inRandomOrder()->get();
        return view('questions',compact('questions'));
+
+
+
+
     }
 
     /**

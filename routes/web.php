@@ -1,8 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\AnswerController;
 use App\Http\Controllers\ProfileController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QuestionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +31,20 @@ Route::get('/posts',[PostController::class,'index']);
 
 
 
+
+
+Route::get('/ttt', function(){
+    $data = App\Models\Question::with('Answer')->get();
+    dd($data);
+});
+
+
+Route::get('/qqq', function(){
+    $questions = App\Models\Question::get();
+    $answers = App\Models\Answer::get();
+    $data = $questions->concat($answers);
+    dd($data);
+});
 
 
 
